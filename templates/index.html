@@ -1,0 +1,56 @@
+{% extends "base.html" %}
+{% block header %}
+
+{% endblock %}
+
+{% block content %}
+	<div class="page-header">
+		<h1>S. much slimer.</h1>
+	</div>
+    <p class="lead">Loose more!</p>
+{% endblock %}
+
+{% block footer %}
+<footer class="footer">
+  <div class="container">
+    <p class="text-muted">&copy; 2015.Prepared by <a href="http://nasrulhazim.com" target="_blank">nasrulhazim.m</a></p>
+  </div>
+</footer>
+{% endblock %}
+
+{% block bottomscript %}
+<style type="text/css">
+	/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+  background-color: #f5f5f5;
+}
+
+
+/* Custom page CSS
+-------------------------------------------------- */
+/* Not required for template or sticky footer method. */
+
+.container {
+  width: auto;
+  max-width: 680px;
+  padding: 0 15px;
+}
+.container .text-muted {
+  margin: 20px 0;
+}
+</style>
+{% endblock %}
