@@ -1,5 +1,5 @@
 {
-    "name": "S",    
+    "name": "nasrulhazim/S",    
     "require": {
         "php": ">=5.3.0",
         "slim/slim": "2.*",
