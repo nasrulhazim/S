@@ -1,6 +1,6 @@
 {
     "name": "nasrulhazim/s",   
-    "description": "Slim Framework, Twig, jQuery, Bootstrap and FontAwesome together ready for simple system development. "
+    "description": "Slim Framework, Twig, jQuery, Bootstrap and FontAwesome together ready for simple system development. ",
     "require": {
         "php": ">=5.3.0",
         "slim/slim": "2.*",
